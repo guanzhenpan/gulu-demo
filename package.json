@@ -4,7 +4,13 @@
   "description": "这是一个UI框架",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
@@ -19,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/guanzhenpan/gulu-demo/issues"
   },
-  "homepage": "https://github.com/guanzhenpan/gulu-demo#readme"
+  "homepage": "https://github.com/guanzhenpan/gulu-demo#readme",
+  "dependencies": {
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "vuepress": "^1.4.0"
+  }
 }
